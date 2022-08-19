@@ -1,0 +1,45 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <div class="score"> 
+                    <p id="home-score">0</p>
+                </div>
+                <div class="score-main-div" > 
+                    <div class="score-btns">
+                        <button class="add-btn" onclick="add1H()">+1</button>
+                    </div>
+                    <div class="score-btns">
+                        <button class="add-btn" onclick="add2H()">+2</button>
+                    </div>
+                    <div class="score-btns">
+                        <button class="add-btn" onclick="add3H()">+3</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <div class="score"> 
+                    <p id="guest-score">0</p>
+                </div>
+                <div class="score-main-div" > 
+                    <div class="score-btns">
+                        <button class="add-btn" onclick="add1G()">+1</button>
+                    </div>
+                    <div class="score-btns">
+                        <button class="add-btn" onclick="add2G()">+2</button>
+                    </div>
+                    <div class="score-btns">
+                        <button class="add-btn" onclick="add3G()">+3</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+               <button class="reset-btn" onclick="resetScore()">RESET</button>
+        <script src="scripts.js"></script>
+    </body>
+</html>
